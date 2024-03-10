@@ -38,9 +38,9 @@ function changeHeaderColor() {
     for (var i = 0; i < conditions.length; i++) {
       var condition = conditions[i];
       if (projectId.match(condition.pattern)) {
-        var colorRgb = 'rgb(' + condition.color.r + ', '
+        var colorRgb = 'rgba(' + condition.color.r + ', '
                               + condition.color.g + ', '
-                              + condition.color.b + ' /'
+                              + condition.color.b + ', '
                               + condition.opacity + ')';
         header.style.backgroundColor = colorRgb;
         return;
