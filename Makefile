@@ -1,2 +1,2 @@
 package:
-	zip package.zip icon/* lib/* background.js main.js manifest.json options.*
+	zip package.zip icon/* lib/* background.js main.js manifest.json options.* bootstrap.min.css

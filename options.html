@@ -1,20 +1,25 @@
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="options.css">
     <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="lib/jqColorPicker.min.js"></script>
 </head>
+<style>
+    
+</style>
 <body>
     <div id="container">
         <table id="conditions">
-            <tr>
+            <tr style="font-size: small;">
                 <th>Project ID</th>
                 <th>Color</th>
+                <th>Opacity</th>
                 <th></th>
             </tr>
         </table>
-        <div><a href="#" id="add">add new condition</a></div>
-        <button id="save">save</button>
+        <div><a href="#" id="add" class="link-success" title="add">(+)</a></div>
+        <hr>
+        <button id="save" class="btn-primary">Save</button>
     </div>
     <script type="text/javascript" src="options.js"></script>
 </body>
