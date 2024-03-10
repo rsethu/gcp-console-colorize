@@ -1,14 +1,14 @@
 gcp-console-colorize
 ===
 
-A chrome extension to change the header color for GCP console.
+Microsoft Edge extension to change the header color for GCP Console.
 
-![screenshot](https://raw.github.com/yfuruyama/gcp-console-colorize/master/image/gcp-console-colorize.png)
+![screenshot](https://raw.github.com/rsethu/gcp-console-colorize/master/image/gcp-console-colorize.png)
+
+Options Page
+![screenshot](https://raw.github.com/rsethu/gcp-console-colorize/master/image/gcp-console-colorize-option.png)
 
 ## Install
 
-[Install from Chrome Web Store](https://chrome.google.com/webstore/detail/gcp-console-colorize/higjahjicmccalicmgfpokdmooopdhej?utm_source=gmail)
+[Install from Microsoft Edge AddOns](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)
 
-## Alternatives
-
-- Firefox extension: [araigumaG/gcp-console-colorize-firefox](https://github.com/araigumaG/gcp-console-colorize-firefox)

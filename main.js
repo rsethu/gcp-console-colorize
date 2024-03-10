@@ -40,7 +40,8 @@ function changeHeaderColor() {
       if (projectId.match(condition.pattern)) {
         var colorRgb = 'rgb(' + condition.color.r + ', '
                               + condition.color.g + ', '
-                              + condition.color.b + ')';
+                              + condition.color.b + ' /'
+                              + condition.opacity + ')';
         header.style.backgroundColor = colorRgb;
         return;
       }

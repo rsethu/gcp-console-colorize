@@ -1,15 +1,24 @@
-#container {
-  padding: 30px 70px 120px 70px;
+html {
+  min-width: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-family: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
 }
 
 #add {
-  margin: 5px 0 5px 3px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-decoration: none;
 }
 
-#save {
-  margin: 20px 0 0 3px;
+#remove {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: large;
 }
 
-a {
-  font-size: 13px;
+#alert{
+  margin-left: 25px;
+  color: green;
 }
