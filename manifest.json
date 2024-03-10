@@ -9,6 +9,9 @@
     "48": "icon/icon_48x48.png",
     "128": "icon/icon_128x128.png"
   },
+  "action": {
+    "default_popup": "options.html"
+  },
   "content_scripts": [
     {
       "matches": [
@@ -19,10 +22,6 @@
   ],
   "background": {
     "service_worker": "background.js"
-  },
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab" : false
   },
   "permissions": [
     "storage",
