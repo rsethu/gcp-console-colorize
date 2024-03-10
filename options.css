@@ -26,3 +26,7 @@ html {
 th{
   font-weight: 450;
 }
+
+#save{
+  margin-bottom: 15px;
+}
