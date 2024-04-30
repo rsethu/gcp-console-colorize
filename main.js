@@ -10,12 +10,16 @@ function getCurrentProjectId() {
     }
   });
 
+  if(projectId === null && document.URL.includes('composer.googleusercontent.com')){
+    projectId = document.URL.split('-', 1)[0].replace('https://', '');
+  }
   return projectId;
 }
 
 function getCurrentHeader() {
   return document.querySelector('.cfc-platform-bar-container')
-    || document.querySelector('.cfc-platform-bar-white.gm2-platform-bar');
+    || document.querySelector('.cfc-platform-bar-white.gm2-platform-bar') 
+    || document.querySelector('.navbar.navbar-fixed-top');
 }
 
 function changeHeaderColor() {
